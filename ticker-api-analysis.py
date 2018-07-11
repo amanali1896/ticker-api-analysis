@@ -7,7 +7,8 @@ import requests#importing the libraries
 
 while True:
 
-    ticker_url = 'https://api.coinmarketcap.com/v2/ticker/?structure=array' #getting the api link
+    ticker_url = 'https://api.coinmarketcap.com/v2/ticker/?structure=array' #getting the api link #structure can be an array or 
+                                                                            #dictionary
 
     limit = 100#initialising the parameters
     start = 1
